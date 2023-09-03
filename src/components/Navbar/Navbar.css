@@ -1,0 +1,61 @@
+.NavContainer{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 50px;
+    height: 60px;
+    font-size: 17px;
+   
+}
+
+.NavLogo img{
+  width: 160px;
+  height: 30px;   
+}
+
+.NavLinks{
+    display: flex;
+    width: 745px;
+    height: 60px;
+    align-items: center;
+    padding: 0 5px;
+    border-radius: 35px;
+    gap: 100px;
+    justify-content:space-between ;
+    background-color: #212121;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+    
+}
+
+.NavLinks a{
+    color: white;
+    font-family: sans-serif;
+    height: 53px;
+    width: 100px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+
+}
+
+.NavLinks .active{
+    background-color: white;
+    color: black;
+    height: 53px;
+    width: 100px;
+    padding: 0 10px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    border-radius: 35px;
+
+}
+
+.NavJoin a{
+    color: white;
+    font-family: sans-serif;
+}
