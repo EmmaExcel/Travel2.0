@@ -32,6 +32,18 @@ export const Recommendations = () => {
                 <div className="recomImgContainer">{/* IMAGE SLIDER */}</div>
                </div>
               </Slide>
+              <Slide index={1}>
+               <div className="recomSlider">
+               <div className="recomTextBoxContainer">{/*  SIDE TEXT BOX */}</div>
+                <div className="recomImgContainer">{/* IMAGE SLIDER */}</div>
+               </div>
+              </Slide>
+              <Slide index={2}>
+               <div className="recomSlider">
+               <div className="recomTextBoxContainer">{/*  SIDE TEXT BOX */}</div>
+                <div className="recomImgContainer">{/* IMAGE SLIDER */}</div>
+               </div>
+              </Slide>
             </Slider>
 
             <div className="">
