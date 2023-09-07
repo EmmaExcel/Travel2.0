@@ -1,4 +1,4 @@
-import locationCheck from "../assets/formIcon/locationtick.svg";
+import locationCheck from "../assets/formIcon/tick.svg";
 import noteAdd from "../assets/formIcon/noteadd.svg";
 import profile from "../assets/formIcon/profile2user.svg";
 import star from "../assets/formIcon/star.png"

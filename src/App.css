@@ -751,19 +751,20 @@ label {
 }
 
 .freePackageContainer {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: center;
   justify-content: center;
-  padding: 0 50px;
+  padding: 20px 50px;
 }
 
 .freePackageHeader {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  width: 100%;
 }
 .freePackageHeader p {
   color: white;
@@ -793,6 +794,7 @@ label {
   gap: 30px;
   padding: 20px 0;
   place-content: center;
+
   width: 100%;
 }
 
@@ -836,16 +838,101 @@ label {
   padding: 10px 0;
 }
 .freeBoxingImgContainer img {
-  width: 324px;
-  height: 298px;
+  width: 100%;
+  height: 100%;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+  object-fit: cover;
+}
+
+.freeBoxName {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  padding: 10px 0;
+  align-items: center;
+  height: 5%;
 }
 
 .freeBoxName p {
+  color: white;
+  font-family: "Poppins", "san-serif";
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 35px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+.freeBoxName img {
+  width: 36.3px;
+  height: 36.3px;
+  cursor: pointer;
+  transition: 0.7s;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -o-transition: 0.7s;
+}
+
+.freeBoxName img:hover {
+  scale: 0.9;
+  transition: 0.5;
+  -webkit-transition: 0.5;
+  -moz-transition: 0.5;
+  -ms-transition: 0.5;
+  -o-transition: 0.5;
+}
+
+.freeBoxLocationContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.freeBoxLocation {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 0;
+}
+
+.freeBoxLocation p {
+  color: white;
+  font-family: "Poppins";
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+.locationBoxRate {
+  color: white;
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+.freeBoxText {
+  height: 120px;
+  width: 90%;
+}
+.freeBoxText p {
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  width: 331px;
+
   color: white;
 }
 
@@ -861,27 +948,105 @@ label {
   background-color: #006360;
   border: none;
   font-family: "Poppins";
-font-size: 15px;
-font-weight: 500;
-line-height: 23px;
-letter-spacing: 0.01em;
-color: white;
-
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0.01em;
+  color: white;
 }
 
-.see{
+.see {
   width: 120px;
   display: flex;
-justify-content: center;
-border: none;
-background-color: transparent;
-border-bottom: 1px solid white;
-color: white;
-font-family: Poppins;
-font-size: 21px;
-font-weight: 400;
-line-height: 32px;
-letter-spacing: 0.01em;
-text-align: center;
-
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+  text-decoration: underline;
+  color: white;
+  font-family: "Poppins";
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  cursor: pointer;
 }
+
+.recommendationSection {
+  height: 100%;
+  width: 100%;
+}
+
+.recommendationContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.recommendationHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.recommendationHeader p {
+  font-family: "Poppins";
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.01em;
+  
+}
+.recommendationHeader span {
+  font-family: "Poppins";
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.01em;
+  
+}
+
+.recommendationHeader p{
+  color: #009490;
+}
+
+.recommendationSliderContainer{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recomSlider{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.recomTextBoxContainer{
+  width: 396px;
+  height: 487px;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  border: 1px solid green;
+}
+
+.recomImgContainer{
+  width: 930px;
+  height: 461px;
+  border-radius:7px;
+  -webkit-border-radius:7px;
+  -moz-border-radius:7px;
+  -ms-border-radius:7px;
+  -o-border-radius:7px;
+  border: 1px solid red;
+}
+

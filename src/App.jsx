@@ -6,6 +6,7 @@ import { Explore } from "./pages/Explore";
 import { FreePackage } from "./pages/FreePackage";
 import { Landing } from "./pages/Landing";
 import { Services } from "./pages/Services";
+import { Recommendations } from "./pages/recommendations";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Services/>
       <BookFlight/>
       <FreePackage/>
+      <Recommendations/>
     </>
   );
 }
