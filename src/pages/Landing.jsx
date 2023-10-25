@@ -51,7 +51,6 @@ export const Landing = () => {
               <p>Tourist Center</p>
               <b>1.1+k</b>
             </div>
-
           </div>
         </div>
       </section>

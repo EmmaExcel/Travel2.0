@@ -1,20 +1,20 @@
-.NavContainer{
+.NavContainer {
     background-color: black;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:0px 50px;
+    padding: 0px 50px;
     height: 60px;
     font-size: 17px;
-   
+    width: 100%;
 }
 
-.NavLogo img{
-  width: 160px;
-  height: 30px;   
+.NavLogo img {
+    width: 160px;
+    height: 30px;
 }
 
-.NavLinks{
+.NavLinks {
     display: flex;
     width: 745px;
     height: 60px;
@@ -22,16 +22,15 @@
     padding: 0 5px;
     border-radius: 35px;
     gap: 100px;
-    justify-content:space-between ;
+    justify-content: space-between;
     background-color: #212121;
     -webkit-border-radius: 35px;
     -moz-border-radius: 35px;
     -ms-border-radius: 35px;
     -o-border-radius: 35px;
-    
 }
 
-.NavLinks a{
+.NavLinks a {
     color: white;
     font-family: sans-serif;
     height: 53px;
@@ -39,10 +38,9 @@
     text-align: center;
     display: grid;
     place-items: center;
-
 }
 
-.NavLinks .active{
+.NavLinks .active {
     background-color: white;
     color: black;
     height: 53px;
@@ -52,10 +50,116 @@
     display: grid;
     place-items: center;
     border-radius: 35px;
-
 }
 
-.NavJoin a{
+.NavJoin a {
     color: white;
     font-family: sans-serif;
+}
+
+.sidebar {
+    display: none;
+}
+
+@media (width < 780px) {
+
+    .NavContainer {
+        background-color: rgba(0, 0, 0, 0.929);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 20px;
+        height: 60px;
+        font-size: 17px;
+        width: 100%;
+    }
+    .NavLogo img {
+        width: 154px;
+        height: 29px;
+    }
+
+    .NavLinks {
+        display: none;
+    }
+
+    .NavLinks .active {
+        display: none;
+    }
+
+    .NavJoin {
+        display: none;
+    }
+
+    .sidebar {
+        display: block;
+        color: white;
+        font-size: 34px;
+        cursor: pointer;
+    }
+}
+
+@media (780px <= width <= 960px) {
+
+    .NavContainer {
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 20px;
+        height: 75px;
+        font-size: 17px;
+        width: 100%;
+    }
+    
+    .NavLogo img {
+        width: 160px;
+        height: 30px;
+    }
+    
+    .NavLinks {
+        display: flex;
+        width: 455px;
+        height: 60px;
+        align-items: center;
+        padding: 0 5px;
+        border-radius: 35px;
+        gap: 20px;
+        justify-content: space-between;
+        background-color: #212121;
+        -webkit-border-radius: 35px;
+        -moz-border-radius: 35px;
+        -ms-border-radius: 35px;
+        -o-border-radius: 35px;
+    }
+    
+    .NavLinks a {
+        color: white;
+        font-family: sans-serif;
+        height: 53px;
+        width: 100px;
+        text-align: center;
+        display: grid;
+        place-items: center;
+    }
+    
+    .NavLinks .active {
+        background-color: white;
+        color: black;
+        height: 53px;
+        width: 100px;
+        padding: 0 10px;
+        text-align: center;
+        display: grid;
+        place-items: center;
+        border-radius: 35px;
+    }
+    
+    .NavJoin a {
+        color: white;
+        font-family: sans-serif;
+    }
+    
+    .sidebar {
+        display: none;
+    }
 }

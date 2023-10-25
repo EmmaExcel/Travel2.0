@@ -1,5 +1,6 @@
 import "./Navbar.css";
 import logo from "../../assets/travelLogo.png";
+import {AiOutlineMenu} from "react-icons/ai"
 export const Navbar = () => {
   return (
     <>
@@ -15,6 +16,10 @@ export const Navbar = () => {
         </div>
         <div className="NavJoin">
           <a href="">Join us</a>
+        </div>
+
+        <div className="sidebar">
+            <AiOutlineMenu/>
         </div>
       </div>
     </>

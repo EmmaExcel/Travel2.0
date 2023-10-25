@@ -1,6 +1,7 @@
 import { GoSearch, GoLocation } from "react-icons/go";
 import { BsArrowRight } from "react-icons/bs";
-import { AiOutlineHeart } from "react-icons/ai";
+import { motion } from "framer-motion";
+import Love from "../assets/loveicon.svg"
 
 import first from "../assets/explore/image3.png";
 import second from "../assets/explore/image5.png";
@@ -25,7 +26,7 @@ export const Explore = () => {
       <div className="exploreSearchContainer">
         <div className="exploreSearch">
           <GoSearch />
-          <input type="text" />
+          <input type="text" placeholder="Search for Tourist centers, location"/>
           <button>
             <BsArrowRight />
           </button>
@@ -38,7 +39,7 @@ export const Explore = () => {
 
       <div className="exploreGrid">
         <div className="ExploreGridContainer">
-          <div className="div1">
+          <motion.div initial={{opacity:0 , x: 200}} whileInView={{opacity:1 , x:0}} transition={{type:"spring"}} className="div1">
             <img src={first} alt="" />
             <div className="div1-info">
               <div className="name">
@@ -49,12 +50,12 @@ export const Explore = () => {
               </div>
 
               <div className="rating">
-                <AiOutlineHeart />
+                <img id="love" src={Love} alt="" />
                 <p>4321</p>
               </div>
             </div>
-          </div>
-          <div className="div2">
+          </motion.div>
+          <motion.div initial={{opacity:0 , x: -200}} whileInView={{opacity:1 , x:0}} transition={{type:"spring"}} className="div2">
             <img src={second} alt="" />
 
             <div className="div2-info">
@@ -65,8 +66,8 @@ export const Explore = () => {
                 </p>
               </div>
             </div>
-          </div>
-          <div className="div3">
+          </motion.div>
+          <motion.div initial={{opacity:0 , y: 100}} whileInView={{opacity:1 , y:0}} transition={{type:"spring"}} className="div3">
             <img src={third} alt="" />
 
             <div className="div3-info">
@@ -78,12 +79,12 @@ export const Explore = () => {
               </div>
 
               <div className="rating">
-                <AiOutlineHeart />
-                <p>4321</p>
+                <img id="love" src={Love} alt="" />
+                <p>4322</p>
               </div>
             </div>
-          </div>
-          <div className="div4">
+          </motion.div>
+          <motion.div initial={{opacity:0 , x: 200}} whileInView={{opacity:1 , x:0}} transition={{type:"spring"}} className="div4">
             <img src={fourth} alt="" />
 
             <div className="div4-info">
@@ -97,11 +98,11 @@ export const Explore = () => {
 
             <div className="div4-ratingC">
               <div className="div4-rating">
-                <AiOutlineHeart />
+                <img id="love" src={Love} alt="" />
                 <p>21153</p>
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
 
