@@ -31,6 +31,14 @@ export const FreePackage = () => {
       rate: 6676,
       text: "Christ the Redeemer is an Art Deco statue of Jesus Christ in Rio de Janeiro, Brazil, created by French sculptor Paul Landowski and built by Brazilian engineer Heitor da Silva Costa, in collaboration with French engineer Albert Caquot.",
     },
+    {
+      id: 4,
+      name: "Colosseum",
+      Image: first,
+      location: "Rome",
+      rate: 3245,
+      text: "The Colosseum is an oval amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum. It is the largest ancient amphitheatre ever built, and is still the largest standing amphitheatre in the world today, despite its age.",
+    },
   ];
 
   return (

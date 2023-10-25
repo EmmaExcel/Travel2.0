@@ -3,6 +3,7 @@ import ServiceImgOne from "../assets/services/image7.png";
 import ServiceImgTwo from "../assets/services/image8.png";
 import ServiceImgThree from "../assets/services/image9.png";
 import { motion } from "framer-motion";
+import 'swiper/css';
 export const Services = () => {
   return (
     <section className="servicesSection">
@@ -12,10 +13,11 @@ export const Services = () => {
       </div>
 
       <div className="servicesBoxMainContainer">
+
         <div className="servicesBoxContainer">
           <div className="servicesBox">
             <motion.p
-              initial={{ x: -100, opacity: 0 }}
+              initial={{ x: -10, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.8 , delay: 0.1}}
               className="box-number"
@@ -43,7 +45,7 @@ export const Services = () => {
         <div className="servicesBoxContainer">
           <div className="servicesBox">
             <motion.p
-              initial={{ x: -100, opacity: 0 }}
+              initial={{ x: -40, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.8 ,delay: 0.1}}
               className="box-number"
@@ -51,7 +53,7 @@ export const Services = () => {
               02
             </motion.p>
             <motion.div
-              initial={{ x: -100 }}
+              initial={{ x: -80 }}
               whileInView={{ x: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
               className="boxtext"
@@ -71,7 +73,7 @@ export const Services = () => {
         <div className="servicesBoxContainer">
           <div className="servicesBox">
             <motion.p
-              initial={{ x: -100, opacity: 0 }}
+              initial={{ x: -80, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.8 }}
               className="box-number"
@@ -79,7 +81,7 @@ export const Services = () => {
               03
             </motion.p>
             <motion.div
-              initial={{ x: -100 }}
+              initial={{ x: -70 }}
               whileInView={{ x: 0 }}
               transition={{ duration: 0.7, delay: 0.4 }}
               className="boxtext"
@@ -94,7 +96,9 @@ export const Services = () => {
               <img src={ServiceImgThree} alt="" />
             </div>
           </div>
+          
         </div>
+        
       </div>
     </section>
   );

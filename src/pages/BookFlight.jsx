@@ -10,8 +10,8 @@ export const BookFlight = () => {
         <div className="BookFlightLeft"></div>
         <div className="BookFlightRight">
           <div className="bookFlightHeader">
-            <p>Book a </p>
-            <p>Flight</p> <p> With Us Today</p>
+            <p>Book a 
+            <span>Flight</span> With Us Today</p>
           </div>
 
           <div className="BookFlightFormContainer">

@@ -8,8 +8,6 @@ import { motion } from "framer-motion";
 
 export const Recommendations = () => {
 
-
-
   function SlideNextButton() {
     const swiper = useSwiper();
 
@@ -34,8 +32,9 @@ export const Recommendations = () => {
       <div className="recommendationContainer">
         <div className="recommendationHeader">
           <img src={travel} alt="" />
-          <p>Best</p>
+          <p>Best
           <span>recommendations</span>
+          </p>
         </div>
 
         <div className="recommendationSliderContainer">
