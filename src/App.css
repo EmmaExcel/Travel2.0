@@ -1917,12 +1917,12 @@ label {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 351px;
+    width: 331px;
     height: 372px;
   }
 
   .div1 img {
-    width: 316px;
+    width: 306px;
     height: 218px;
     padding: 15px 0px;
     border-radius: 8px;
@@ -1990,13 +1990,13 @@ label {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    width: 351px;
+    width: 331px;
     height: 372px;
   }
 
   .div2 img {
     padding: 15px 0;
-    width: 316px;
+    width: 306px;
     height: 218px;
     flex-shrink: 0;
     border-radius: 8px;
@@ -2022,13 +2022,13 @@ label {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    width: 351px;
+    width: 331px;
     height: 372px;
   }
 
   .div3 img {
     padding: 15px 0;
-    width: 316px;
+    width: 306px;
     height: 218px;
     flex-shrink: 0;
     border-radius: 8px;
@@ -2054,12 +2054,12 @@ label {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    width: 351px;
+    width: 331px;
     height: 372px;
   }
 
   .div4 img {
-    width: 316px;
+    width: 306px;
     height: 218px;
     flex-shrink: unset;
     border-radius: 8px;
@@ -2524,8 +2524,8 @@ label {
 }
 
 .freeBoxContainer {
-  width: 343px;
-  height: 585px;
+  width: 333px;
+  height: 565px;
   border-radius: 3px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 3px;
@@ -2553,7 +2553,7 @@ label {
 }
 
 .freeBoxingImgContainer {
-  width: 314px;
+  width: 290px;
   height: 288px;
   border-radius: 10px;
   -webkit-border-radius: 10px;
